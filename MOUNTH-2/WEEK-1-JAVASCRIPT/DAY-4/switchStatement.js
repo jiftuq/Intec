@@ -1,4 +1,4 @@
-var number = 5;
+var number = 0;
 switch (number) {
     case 0:
         console.log('0');
@@ -36,3 +36,35 @@ switch (myDay.getDay()) {
         console.log('Saturday');
         break;
 }
+
+
+var Winner = "Jackie";
+switch(Winner){
+    case "Michael":
+    console.log('Winner: Michael');
+    break;
+    case "Jackie":
+    console.log('Winner: Jackie');
+    break;
+    case "Jack":
+    console.log('Winner: Jack');
+    break;
+    default:
+    console.log('default')
+}
+
+
+var checkBoolean = 1<5? 'true' : 'false';
+switch(Boolean(checkBoolean)){
+    case true:
+    console.log('returned true');
+    break;
+
+    case false:
+    console.log('returned false');
+    break;
+    
+}
+
+
+var 
