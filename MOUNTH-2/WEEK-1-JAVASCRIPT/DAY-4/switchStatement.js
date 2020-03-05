@@ -1,3 +1,4 @@
+var number = 5;
 switch (number) {
     case 0:
         console.log('0');
