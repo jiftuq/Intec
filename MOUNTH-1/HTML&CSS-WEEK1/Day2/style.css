@@ -1,0 +1,13 @@
+#menu {
+    width: 30%;
+    background-color: black;
+}
+
+img {
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 30%;
+    float: left;
+    
+}

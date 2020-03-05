@@ -1,0 +1,9 @@
+th {
+    border: 6px solid rosybrown;
+    border-radius: 2px;
+}
+td {
+    border-right: 6px solid burlywood ;
+    border-left: 6px solid burlywood;
+    background-color: lightgrey;
+}
