@@ -39,32 +39,56 @@ switch (myDay.getDay()) {
 
 
 var Winner = "Jackie";
-switch(Winner){
+switch (Winner) {
     case "Michael":
-    console.log('Winner: Michael');
-    break;
+        console.log('Winner: Michael');
+        break;
     case "Jackie":
-    console.log('Winner: Jackie');
-    break;
+        console.log('Winner: Jackie');
+        break;
     case "Jack":
-    console.log('Winner: Jack');
-    break;
+        console.log('Winner: Jack');
+        break;
     default:
-    console.log('default')
+        console.log('default')
 }
 
 
-var checkBoolean = 1<5? 'true' : 'false';
-switch(Boolean(checkBoolean)){
+var checkBoolean = 1 < 5 ? 'true' : 'false';
+switch (Boolean(checkBoolean)) {
     case true:
-    console.log('returned true');
-    break;
+        console.log('returned true');
+        break;
 
     case false:
-    console.log('returned false');
-    break;
-    
+        console.log('returned false');
+        break;
+
 }
 
 
-var 
+var checkBoolean1 = false;
+var thisIsABoolen = 'true';
+console.log("This IS Boolean Variable=>", typeof (Boolean(thisIsABoolen)));
+switch (Boolean(checkBoolean1)) {
+    case true:
+        console.log('returned true');
+        break;
+    case false:
+        console.log('returned false');
+        break;
+}
+
+var myBooleanx = true;
+
+function profile() {
+    console.log('Show Profile // function callback')
+}
+
+switch (myBooleanx) {
+    case false:
+        console.log('non')
+    case true:
+        profile()
+        break;
+}
